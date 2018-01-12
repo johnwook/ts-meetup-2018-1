@@ -4,6 +4,9 @@
   "description": "demo for typescript korea meetup 2018 1st",
   "main": "index.js",
   "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
     "test": "jest"
   },
   "repository": {
@@ -19,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/johnwook/ts-meetup-2018-1/issues"
   },
-  "homepage": "https://github.com/johnwook/ts-meetup-2018-1#readme"
+  "homepage": "https://github.com/johnwook/ts-meetup-2018-1#readme",
+  "dependencies": {
+    "next": "^4.2.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
 }
