@@ -1,0 +1,23 @@
+{
+  "name": "ts-meetup-2018-1",
+  "version": "1.0.0",
+  "description": "demo for typescript korea meetup 2018 1st",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnwook/ts-meetup-2018-1.git"
+  },
+  "keywords": [
+    "react",
+    "typescript"
+  ],
+  "author": "@johnwook",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnwook/ts-meetup-2018-1/issues"
+  },
+  "homepage": "https://github.com/johnwook/ts-meetup-2018-1#readme"
+}
