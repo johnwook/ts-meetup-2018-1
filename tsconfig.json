@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "importHelpers": true,
+    "jsx": "react-native",
+    "moduleResolution": "Node",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strict": true,
+    "target": "es2017"
+  }
+}
