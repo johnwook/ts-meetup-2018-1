@@ -34,5 +34,11 @@
     "react-dom": "^16.2.0",
     "tslib": "^1.8.1",
     "typescript": "^2.6.2"
+  },
+  "devDependencies": {
+    "prettier": "^1.10.2",
+    "tslint": "^5.9.1",
+    "tslint-config-prettier": "^1.6.0",
+    "tslint-react": "^3.4.0"
   }
 }
