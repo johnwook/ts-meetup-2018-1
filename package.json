@@ -24,8 +24,12 @@
   },
   "homepage": "https://github.com/johnwook/ts-meetup-2018-1#readme",
   "dependencies": {
+    "@types/next": "^2.4.7",
+    "@types/react": "^16.0.34",
+    "@types/react-dom": "^16.0.3",
     "next": "^4.2.2",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "typescript": "^2.6.2"
   }
 }
