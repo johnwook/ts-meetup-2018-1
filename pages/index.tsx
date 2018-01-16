@@ -1,4 +1,5 @@
 import { Card, Icon } from "antd";
+import { distanceInWordsToNow } from "date-fns";
 
 import DefaultHead from "../common/DefaultHead";
 
@@ -10,10 +11,10 @@ export default () => (
         <Icon key="retweet" type="retweet" />,
         <Icon key="delete" type="delete" />
       ]}
-      title="Johnwook Choi"
+      title="@johnwook"
       extra={
         <div>
-          @johnwook <Icon type="retweet" />
+          <Icon type="retweet" /> {distanceInWordsToNow(Date.now())}
         </div>
       }
       style={{ width: 400 }}
@@ -29,8 +30,7 @@ export default () => (
         <Icon key="retweet" type="retweet" />,
         <Icon key="delete" type="delete" />
       ]}
-      title="TypeScript Korea"
-      extra="@tskorea"
+      title="@typescriptkorea"
       style={{ width: 400 }}
     >
       <p>
