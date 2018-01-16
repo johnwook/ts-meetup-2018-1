@@ -62,3 +62,6 @@ typings/
 
 # compiled js files
 pages/*.js
+
+# local npmrc
+.npmrc
