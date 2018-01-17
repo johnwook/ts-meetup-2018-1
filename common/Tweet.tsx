@@ -3,6 +3,7 @@ import { Card, Icon } from "antd";
 interface IProps {
   author: string;
   content: string;
+  id: string;
 }
 
 const Tweet = (props: IProps) => (
