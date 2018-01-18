@@ -12,8 +12,8 @@ const Tweet = (props: IProps) => (
       <Icon key="retweet" type="retweet" />,
       <Icon key="delete" type="delete" />
     ]}
-    title={props.author}
     style={{ width: 400 }}
+    title={props.author}
   >
     <p>{props.content}</p>
   </Card>

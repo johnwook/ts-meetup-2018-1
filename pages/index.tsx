@@ -39,12 +39,12 @@ class Index extends Component<undefined, IStates> {
     return (
       <div>
         <DefaultHead />
-        {this.state.tweets.map((tweetObj, index) => (
+        {this.state.tweets.map(tweetObj => (
           <Tweet
             author={tweetObj.author}
             content={tweetObj.content}
             id={tweetObj.id}
-            key={index}
+            key={tweetObj.id}
           />
         ))}
       </div>
