@@ -3,13 +3,15 @@ import { Component } from "react";
 import DefaultHead from "../common/DefaultHead";
 import Tweet from "../common/Tweet";
 
+interface ITweetData {
+  author: string;
+  content: string;
+  id: string;
+  retweetedAt?: number;
+}
+
 interface IStates {
-  tweets: Array<{
-    author: string;
-    content: string;
-    id: string;
-    retweetedAt?: number;
-  }>;
+  tweets: ITweetData[];
 }
 
 class Index extends Component<undefined, IStates> {
